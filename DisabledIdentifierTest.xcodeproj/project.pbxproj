@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04f6ea3937da163f97e4a0d2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2C16CAE58000A13A15 /* Foundation.framework */; };
+		1c2215f6dc5c06af3538a0ea /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C2B3616CAE58100A13A15 /* main.m */; };
 		374C2B2B16CAE58000A13A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2A16CAE58000A13A15 /* UIKit.framework */; };
 		374C2B2D16CAE58100A13A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2C16CAE58000A13A15 /* Foundation.framework */; };
 		374C2B2F16CAE58100A13A15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2E16CAE58100A13A15 /* CoreGraphics.framework */; };
@@ -18,9 +20,23 @@
 		374C2B4116CAE58100A13A15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B4016CAE58100A13A15 /* Default-568h@2x.png */; };
 		374C2B4416CAE58100A13A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C2B4316CAE58100A13A15 /* ViewController.m */; };
 		374C2B4716CAE58100A13A15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B4516CAE58100A13A15 /* ViewController.xib */; };
+		37643F4616CAE7960024419C /* btn_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 37643F4316CAE7960024419C /* btn_bg_normal.png */; };
+		37643F4716CAE7960024419C /* btn_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 37643F4316CAE7960024419C /* btn_bg_normal.png */; };
+		41529838880cbbe468a962ac /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2E16CAE58100A13A15 /* CoreGraphics.framework */; };
+		42602af16c216cd89e5ebb56 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21a7e048cace3c7fbb46d57c /* calabash.framework */; };
+		474d79739241919557e7383f /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B3316CAE58100A13A15 /* InfoPlist.strings */; };
+		5a4363530f9d78a0bc01610e /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C2B3A16CAE58100A13A15 /* AppDelegate.m */; };
+		93f0f55fa42ec32d67f28d21 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B4516CAE58100A13A15 /* ViewController.xib */; };
+		950d9e7c222be3844be88a11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C2B4316CAE58100A13A15 /* ViewController.m */; };
+		c8b7030b3b22c9d76b236da3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B3C16CAE58100A13A15 /* Default.png */; };
+		ceb75e522f66473a3846ffc7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3dda18dd48f425d531ac998b /* CFNetwork.framework */; };
+		d2d13789a08292b032ad6a74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2B2A16CAE58000A13A15 /* UIKit.framework */; };
+		d30d44329462e454e4b66d61 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B3E16CAE58100A13A15 /* Default@2x.png */; };
+		f8f1a73fc0ddc7d094195f02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 374C2B4016CAE58100A13A15 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21a7e048cace3c7fbb46d57c /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 		374C2B2716CAE58000A13A15 /* DisabledIdentifierTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisabledIdentifierTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374C2B2A16CAE58000A13A15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		374C2B2C16CAE58000A13A15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +53,9 @@
 		374C2B4216CAE58100A13A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		374C2B4316CAE58100A13A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		374C2B4616CAE58100A13A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		37643F4116CAE6C70024419C /* DisabledIdentifierTest-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DisabledIdentifierTest-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37643F4316CAE7960024419C /* btn_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bg_normal.png; sourceTree = "<group>"; };
+		3dda18dd48f425d531ac998b /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,18 @@
 				374C2B2B16CAE58000A13A15 /* UIKit.framework in Frameworks */,
 				374C2B2D16CAE58100A13A15 /* Foundation.framework in Frameworks */,
 				374C2B2F16CAE58100A13A15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		a1a19e67b8461a4a6be132ff /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				d2d13789a08292b032ad6a74 /* UIKit.framework in Frameworks */,
+				04f6ea3937da163f97e4a0d2 /* Foundation.framework in Frameworks */,
+				41529838880cbbe468a962ac /* CoreGraphics.framework in Frameworks */,
+				ceb75e522f66473a3846ffc7 /* CFNetwork.framework in Frameworks */,
+				42602af16c216cd89e5ebb56 /* calabash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				374C2B2716CAE58000A13A15 /* DisabledIdentifierTest.app */,
+				37643F4116CAE6C70024419C /* DisabledIdentifierTest-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +108,8 @@
 				374C2B2A16CAE58000A13A15 /* UIKit.framework */,
 				374C2B2C16CAE58000A13A15 /* Foundation.framework */,
 				374C2B2E16CAE58100A13A15 /* CoreGraphics.framework */,
+				3dda18dd48f425d531ac998b /* CFNetwork.framework */,
+				21a7e048cace3c7fbb46d57c /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +122,7 @@
 				374C2B4216CAE58100A13A15 /* ViewController.h */,
 				374C2B4316CAE58100A13A15 /* ViewController.m */,
 				374C2B4516CAE58100A13A15 /* ViewController.xib */,
+				37643F4316CAE7960024419C /* btn_bg_normal.png */,
 				374C2B3116CAE58100A13A15 /* Supporting Files */,
 			);
 			path = DisabledIdentifierTest;
@@ -127,6 +162,23 @@
 			productReference = 374C2B2716CAE58000A13A15 /* DisabledIdentifierTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		b396225302a1868cdd004551 /* DisabledIdentifierTest-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32b8d18206ca54160f8edf4f /* Build configuration list for PBXNativeTarget "DisabledIdentifierTest-cal" */;
+			buildPhases = (
+				db5595d4a2ac1518ea2441d3 /* Sources */,
+				a1a19e67b8461a4a6be132ff /* Frameworks */,
+				ddf7375addb647ebae52001d /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DisabledIdentifierTest-cal";
+			productName = "DisabledIdentifierTest-cal";
+			productReference = 37643F4116CAE6C70024419C /* DisabledIdentifierTest-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				374C2B2616CAE58000A13A15 /* DisabledIdentifierTest */,
+				b396225302a1868cdd004551 /* DisabledIdentifierTest-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +216,20 @@
 				374C2B3F16CAE58100A13A15 /* Default@2x.png in Resources */,
 				374C2B4116CAE58100A13A15 /* Default-568h@2x.png in Resources */,
 				374C2B4716CAE58100A13A15 /* ViewController.xib in Resources */,
+				37643F4616CAE7960024419C /* btn_bg_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ddf7375addb647ebae52001d /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474d79739241919557e7383f /* InfoPlist.strings in Resources */,
+				c8b7030b3b22c9d76b236da3 /* Default.png in Resources */,
+				d30d44329462e454e4b66d61 /* Default@2x.png in Resources */,
+				f8f1a73fc0ddc7d094195f02 /* Default-568h@2x.png in Resources */,
+				93f0f55fa42ec32d67f28d21 /* ViewController.xib in Resources */,
+				37643F4716CAE7960024419C /* btn_bg_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +243,16 @@
 				374C2B3716CAE58100A13A15 /* main.m in Sources */,
 				374C2B3B16CAE58100A13A15 /* AppDelegate.m in Sources */,
 				374C2B4416CAE58100A13A15 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		db5595d4a2ac1518ea2441d3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1c2215f6dc5c06af3538a0ea /* main.m in Sources */,
+				5a4363530f9d78a0bc01610e /* AppDelegate.m in Sources */,
+				950d9e7c222be3844be88a11 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +356,60 @@
 			};
 			name = Release;
 		};
+		a81eaec494fe3ce5ca21dbfb /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisabledIdentifierTest/DisabledIdentifierTest-Prefix.pch";
+				INFOPLIST_FILE = "DisabledIdentifierTest/DisabledIdentifierTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		c6993caf1a92960055ca505f /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisabledIdentifierTest/DisabledIdentifierTest-Prefix.pch";
+				INFOPLIST_FILE = "DisabledIdentifierTest/DisabledIdentifierTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		32b8d18206ca54160f8edf4f /* Build configuration list for PBXNativeTarget "DisabledIdentifierTest-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				a81eaec494fe3ce5ca21dbfb /* Debug */,
+				c6993caf1a92960055ca505f /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		374C2B2216CAE58000A13A15 /* Build configuration list for PBXProject "DisabledIdentifierTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -298,6 +426,7 @@
 				374C2B4C16CAE58100A13A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

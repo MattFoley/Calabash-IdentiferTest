@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, weak) IBOutlet UIButton* testButton;
 @end
 
 @implementation ViewController
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _testButton.enabled = NO;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)toggleTestButtonEnabled:(id)sender
+{
+    [self.testButton setEnabled:!self.testButton.enabled];
 }
 
 @end
