@@ -36,7 +36,7 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIImageView" id="519124392">
+					<object class="IBUIImageView" id="278392199">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{-1, 0}, {322, 549}}</string>
@@ -120,7 +120,7 @@
 				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="519124392"/>
+				<reference key="NSNextKeyView" ref="278392199"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MC43NQA</bytes>
@@ -202,7 +202,7 @@
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="563204830"/>
-							<reference ref="519124392"/>
+							<reference ref="278392199"/>
 							<reference ref="941475718"/>
 						</array>
 						<reference key="parent" ref="0"/>
@@ -222,7 +222,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">45</int>
-						<reference key="object" ref="519124392"/>
+						<reference key="object" ref="278392199"/>
 						<reference key="parent" ref="774585933"/>
 						<string key="objectName">Broken Image</string>
 					</object>
